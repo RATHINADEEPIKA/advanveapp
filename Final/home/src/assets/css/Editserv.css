@@ -1,0 +1,107 @@
+/* Background Styles */
+.background {
+    position: relative;
+    background-image: url('https://www.homedoc.in/wp-content/uploads/2019/09/elderly-care-in-Gurgaon.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:2000px;
+}
+
+/* Overlay Styles */
+.overlay8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100opx;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.635);
+    z-index: 1;
+}
+
+/* Form Styles */
+.booking-form {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.85); /* Adjusted transparency for better readability */
+    padding: 40px; /* Increased padding for better spacing */
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+    text-align: center;
+}
+
+/* Heading Styles */
+.booking-form h2 {
+    margin-bottom: 30px; /* Increased margin for better separation */
+    color: #333; /* Darkened text color for better contrast */
+    font-family: Arial, sans-serif; /* Changed font for better readability */
+}
+
+/* Label Styles */
+.booking-form label {
+    display: block; /* Labels on separate lines */
+    margin-bottom: 10px; /* Added spacing between labels and inputs */
+    color: #333; /* Darkened text color for better contrast */
+    font-size: 16px; /* Slightly reduced font size for better proportion */
+    font-family: Arial, sans-serif; /* Changed font for better readability */
+}
+
+/* Input Styles */
+.booking-form input,
+.booking-form textarea {
+    padding: 12px; /* Increased padding for better input area */
+    margin: 8px 0; /* Added spacing around inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Inputs take full width */
+    box-sizing: border-box; /* Added to include padding and border in width calculation */
+}
+
+/* Button Styles */
+.booking-form button {
+    padding: 12px 24px; /* Increased padding for better button size */
+    background-color: #e82e19;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Slightly increased font size for better visibility */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.booking-form button:hover {
+    background-color: #04b44e; /* Darkened color on hover for better feedback */
+}
+
+/* Search Container Styles */
+.search {
+    margin-bottom: 20px;
+}
+
+.search input {
+    height: 45px;
+    width: 250px;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search button {
+    width: 60px;
+    height: 43px;
+    padding: 8px 12px;
+    background-color: #e82e19;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #04b44e;
+}
